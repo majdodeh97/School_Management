@@ -27,4 +27,4 @@ if __name__ == "__main__":
     app = QApplication(sys.argv)
     win = Window(cl_repo, st_repo, r_func, emailSender, j_table)
     win.show()
-    app.exec()
+    sys.exit(app.exec())

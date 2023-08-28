@@ -180,7 +180,6 @@ class Window(QMainWindow):
                              class_selected, class_, student, categories)
 
     def add_recipient_clicked(self):
-        raise Exception("fake error!")
         type_ = self.check_type()
         if type_ == "class":
             class_name = self.ui.treeView.currentIndex().data()
