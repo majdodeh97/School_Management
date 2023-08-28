@@ -1,0 +1,15 @@
+# import excel. ask if to add to current db or make new one
+# when application starts, prompt the user to select a db to use
+# keep all dbs in one folder, and you can iterate over them and create a dropdown
+# add a remember my choice option for db to use
+# add a way to change this settings^^
+# CRUD operations to allow user to do stuff
+# if in course menu, add will add a course
+# if in student menu, add will add a student and choose the default course to be the one youre in
+# statistics and grades
+# Double-click a course see students inside that course
+# same idae for subjects. another list with all the courses and you can double click a course to view the subjects inside
+# details button will show statistics for that subject
+# for the first list (the students one), details will determine the type of selected item (student vs course) and it will show the appropriate dialog
+# create a signature that can be added to any template
+# create a template generator that allows the user to create a json template with as many variables as he wants (downside: cant format it like email does)
