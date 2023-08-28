@@ -28,3 +28,4 @@ if __name__ == "__main__":
     win = Window(cl_repo, st_repo, r_func, emailSender, j_table)
     win.show()
     sys.exit(app.exec())
+    #fdsfds
